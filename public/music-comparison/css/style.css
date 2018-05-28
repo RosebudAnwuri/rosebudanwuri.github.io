@@ -1,0 +1,156 @@
+body{
+	
+	color:black;
+	font-family: 'Raleway';
+	background-color:#F8EFBA;
+	overflow-x:hidden;
+	
+}
+.row{
+	margin-bottom:0;
+}
+#dashboardTitle{
+	text-align:center;
+	
+	font-weight:300;
+	margin-bottom:0;
+	margin-top: 0;
+}
+#dashboardsubTitle{
+	text-align:center;
+	font-size:20pt;
+	font-weight:300;
+	margin-bottom:0;
+	margin-top: 0;
+}
+canvas{
+	width:500px;
+	height:500px;
+}
+#createdashboard{
+	background-color:#D6A2E8;
+	font-weight:bold;
+}
+.add_artist{
+	background-color:rgba(234, 181, 67,1.0);
+	
+}
+.add_artist:hover,
+.add_artist:focus{
+	background-color:rgba(85, 230, 193,1.0);
+}
+.remove_artist{
+	background-color:rgba(253, 114, 114,1.0);
+	
+}
+#remove_artist{
+	display:none;
+}
+.remove_artist:hover,
+.remove_artist:focus{
+	background-color:rgba(249, 127, 81,1.0);
+}
+#createdashboard:hover,
+#createdashboard:focus{
+	background-color:#82589F;
+}
+.determinate{
+	-o-transition: width 3s linear !important;
+	-ms-transition: width 3s linear       !important;
+	-moz-transition: width 3s linear      !important;
+	-webkit-transition: width 3s linear  !important;
+    transition: width 3s linear;
+	width: 1%;
+	background-color:#00b894;
+	text-align:center;
+	line-height:100px;
+	font-size:3vh;
+	color:white;
+}
+
+#buttonWrapper{
+	text-align:center;
+	animation-duration:2s;
+	-moz-animation-duration:2s;
+	-webkit-animation-duration:2s;
+	-o-animation-duration:2s;
+	-ms-animation-duration:2s;
+	
+}
+.material-icons .right .animated .pulse{
+	text-align:center;
+	animation-duration:2s !important;
+	-moz-animation-duration:2s !important;
+	-webkit-animation-duration:2s !important;
+	-o-animation-duration:2s !important;
+	-ms-animation-duration:2s !important;
+	transition: height 3s linear;
+}
+#imageContainer{
+	text-align:center;
+}
+#title2,#title3{
+	margin-top:7%;
+	font-weight: bold;
+	text-align:center;
+}
+#danceContainer{
+	
+	text-align:center;
+}
+.speechiness{
+	width:80px;
+	text-align:center;
+	
+}
+
+.dance{
+	
+	width:250px;
+	 display: block;
+	clip-path: inset(20% 0% 0%  0%);
+	
+}
+#danceContainer1 {
+	margin: 0 auto;
+  background:url('../assets/dance-outline.png');
+  width:250px;
+  height:250px;
+  background-size:cover;
+background-position: center;
+}
+ 
+
+
+.speechiness1{
+	
+	width:80px;
+	-webkit-filter: opacity(30%); /* Safari 6.0 - 9.0 */
+    filter: opacity(30%);
+/* 	rgba(255, 234, 167,1.0) */
+
+}
+.chart-gauge
+			{
+			  width: 100%;
+			  height:200px;;
+			 } 
+			.chart-filled
+			{
+				fill: steelblue;
+			}
+			.chart-empty
+			{
+				fill: #dedede;
+			}
+		
+			.needle, .needle-center
+			{
+				fill: #464A4F;
+			}
+
+			svg {
+			  font: 10px sans-serif;
+			}
+
+	
